@@ -7,9 +7,9 @@ class Embed(commands.Cog):
     
     @commands.Cog.listener()
     async def on_ready(self):
-        print("Embed Cog is Ready")
+        print("하루예측 Cog is Ready")
         
-    @commands.command(name = "임베드")
+    @commands.command(name = "하루예측")
     async def embed(self, ctx):
         # 소개말
         embed=discord.Embed(
